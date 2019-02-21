@@ -1,0 +1,14 @@
+[package]
+name = "crypto_stream"
+version = "0.1.0"
+authors = ["maya"]
+edition = "2018"
+
+[dependencies]
+blake2-rfc = { version = "0.2.18" }
+crossbeam-channel = "*"
+log = "*"
+ordered_stream = { path = '../ordered_stream/' }
+rayon = "*"
+rust_sodium = "*"
+tiny-keccak = "1.4.2"
